@@ -1,0 +1,42 @@
+    /* Specifies text font for entire page */
+
+    body
+      {
+        font-family: helvetica;
+      }
+
+    /* Specifies background image and font characteristics of header */
+
+    h1
+      {
+        background-image: url("../pattern.jpeg"); font-size: 100px; color: khaki; font-weight: bold; text-align: center;
+      }
+
+    /* Common section header font attributes */
+
+    h2
+      {
+        font-size: 32px; color: white; font-weight: bold;
+      }
+
+    /* Common blue/bold text pricing markup within sections */
+
+    span
+      {
+        color: blue; font-weight: bold;
+      }
+
+    /* Unique section header background color */
+
+    #brushes
+      {
+        background-color: mediumspringgreen;
+      }
+    #frames
+      {
+        background-color: lightcoral;
+      }
+    #paint
+      {
+        background-color: skyblue;
+      }
